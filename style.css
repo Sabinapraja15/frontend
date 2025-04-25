@@ -1,15 +1,14 @@
 body{
-    padding:0px;
+    margin:0%;
 }
 p{
   color:rgb(194, 46, 157);
-  font-size: 23px;
 }
 .navbar{
     background-color:black;
     overflow: hidden;
     position: sticky;
-    top: 0px;
+    top: 0%;
   }
    .navbar a{
     float: left;
@@ -33,6 +32,7 @@ p{
 
      }
      .leftcontent{
+      margin:20px;
      border:2px,solid,rgb(194, 2, 34);
      padding: 20px;
      text-align: center;
@@ -63,7 +63,7 @@ p{
 width:400px;
 }
 .footer{
-  margin: 20px;
+  margin-top: 30px;
   background-color:black;
   text-align: center;
   padding: 10px;
@@ -78,4 +78,44 @@ width:400px;
 }
 footer a:hover{
 color: rgb(228, 23, 57);
+}
+.project-layout{
+  display:flex;
+ flex-direction: row;
+ justify-content: center;
+ gap:15px;
+ flex-wrap: wrap;
+  }
+  .project-card{
+    padding: 20px;
+    width: 180px;
+    height:100%;
+  background-color: rgb(243, 231, 231);
+}
+  #rabbit{
+    border-radius: 50%;
+    height:200px;
+    width:200px
+  }
+  #main{
+    background-color: aliceblue;
+  }
+#section{
+  display: flex;
+  margin: 100px;
+  padding: 40px;
+
+}
+.text{
+  font-size: bold;
+}
+.project-div{
+  text-align: center;
+  background-color: #16a085;
+  color: white;
+
+}
+.project-div a{
+  text-decoration: none;
+  background-color: orange;
 }
