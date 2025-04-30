@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="navbar">
-    <a href="./index.html">Home</a>~
-        <a href="./about.html">About</a>
-        <a href="#news">News</a>
-        <a href="./contact.html">Contact</a>
-       </div>
-    
+    <div class="topnav" id="myTopnav">
+        <div class="logo"><a href="#logo">Logo </a></div>
+          <a href="./index.html">Home</a>
+          <a href="#News">News</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./about.html">About</a>
+            <a href="javascript:void(0);"class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+      <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
        <h1 class="header">My Project</h1>
        <div class="project-layout">
           <div class="project-card">
@@ -47,6 +61,15 @@
             <p>A flower cannot blossom without sunshine, and man cannot live without love.</p>
         </div>
  </div>
+ <div class="maindiv">
+   <h1 class="header">Services</h1>
+  <div class="layout">
+   <div class="card">
+   <img src="./wh.flow.jpg" alt="image" class="img" style="border-radius: 50%;">
+   <h4 class="header">  HTML</h4>
+</div>
+</div>
+</div>
        <div class="contact">
         <form action="#" class="form">
             <h1 class="header">Contact Us</h1>
