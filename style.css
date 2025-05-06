@@ -175,7 +175,8 @@ color: rgb(228, 23, 57);
   text-align: center;
   background-color: #16a085;
   color: white;
-
+  padding: 40px;
+  padding-bottom: 50px;
 }
 .project-div a{
   text-decoration: none;
@@ -214,4 +215,6 @@ color: rgb(228, 23, 57);
   .maindiv{
     background-color: rgb(136, 207, 142);
   }
-  
+  #typed-text{
+    padding-top:20%;
+  }
